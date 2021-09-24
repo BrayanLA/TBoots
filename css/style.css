@@ -1,0 +1,67 @@
+
+
+* {
+    font-family: 'Overlock SC', cursive;
+    font-weight: 400;
+}
+
+h1 {
+    font-family: 'Sancreek', cursive;
+    font-size: 400%;
+    color:#ebbb21 ;
+}
+
+.parallax {
+    background-image: url(../img/background.jpg);
+    margin: 0 0%;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#historia{
+    background-color:#ffa900;
+}
+#galeria{
+    background-color: #ffa900;
+}
+
+header .navbar-brand img {
+    height: 45px;
+}
+
+header .bg-image {
+    background-image: url('../img/spidey-wallpaper1.jpg');
+    background-attachment: fixed;
+    background-position: 100% 30%;
+    height: 85vh;
+}
+
+header .bg-image .mask {
+    background-image: url(../img/background.jpg); 
+}
+
+section {
+    padding: 30px 30px;
+}
+
+section#historia p {
+    text-align: justify;
+}
+
+section#historia img {
+    height: 300px;
+    border-radius: 50%;
+}
+
+section#services i {
+    color:#ebbb21;;
+    padding: 30px 0;
+}
+
+section#galeria .carousel-item img {
+    width: 100%;
+    height: 100%;
+}
+
